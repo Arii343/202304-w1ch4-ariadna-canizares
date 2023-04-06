@@ -3,3 +3,19 @@
 ::before {
   box-sizing: border-box;
 }
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  max-width: 15rem;
+}
+
+.photo__img {
+  width: 100%;
+  border-radius: 25px;
+}
